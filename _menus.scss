@@ -1,0 +1,322 @@
+.menu{
+    @include menu;
+    background-color: $colorBlack;
+    .logo{
+        @include logo;
+    }
+    .buttons{
+        @include buttonsSection;
+        .menuButton{
+            @include menuButton;
+            color: $colorWhite;
+            &:hover{
+                color: $colorTeal;
+            } 
+        }
+    }
+    .userUI{
+       @include userUISection;
+        .cart{
+           @include cart;
+           color:$colorTeal;
+            p{
+             @include cartItemsNumber;
+             color: $colorWhite;
+             background-color: $colorRed;
+            }
+        }
+        .user{
+            @include user;
+            color: $colorTeal;
+
+        }
+        .search{
+            @include search;
+            color: $colorTeal;
+        }
+    }
+}
+.buttonsBeach{
+    @include buttonsSection;
+    .menuButton{
+        @include menuButton;
+        color: $colorWhite;
+        &:hover{
+            color: $colorOrangeDark;
+        } 
+    }
+}
+.userUIBeach{
+   @include userUISection;
+    .cart{
+       @include cart;
+       color:$colorOrangeDark;
+        p{
+         @include cartItemsNumber;
+         color: $colorWhite;
+         background-color: $colorRed;
+        }
+    }
+    .user{
+        @include user;
+        color: $colorOrangeDark;
+
+    }
+    .search{
+        @include search;
+        color: $colorOrangeDark;
+    }
+}
+
+.buttonsUnderwear{
+    @include buttonsSection;
+    .menuButton{
+        @include menuButton;
+        color: $colorWhite;
+        &:hover{
+            color:$colorPink;
+        } 
+    }
+}
+.userUIUnderwear{
+   @include userUISection;
+    .cart{
+       @include cart;
+       color: $colorPink;
+        p{
+         @include cartItemsNumber;
+         color: $colorWhite;
+         background-color: $colorRed;
+        }
+    }
+    .user{
+        @include user;
+        color: $colorPink;
+
+    }
+    .search{
+        @include search;
+        color: $colorPink;
+    }
+}
+.buttonsSummer{
+    @include buttonsSection;
+    .menuButton{
+        @include menuButton;
+        color: $colorWhite;
+        &:hover{
+            color: $colorYellow;
+        } 
+    }
+}
+.userUISummer{
+    @include userUISection;
+     .cart{
+        @include cart;
+        color:$colorYellow;
+         p{
+          @include cartItemsNumber;
+          color: $colorWhite;
+          background-color: $colorRed;
+         }
+     }
+     .user{
+         @include user;
+         color: $colorYellow;
+ 
+     }
+     .search{
+         @include search;
+         color: $colorYellow;
+     }
+ }
+ .buttonsStreet{
+    @include buttonsSection;
+    .menuButton{
+        @include menuButton;
+        color: $colorWhite;
+        &:hover{
+            color: $colorGrey;
+        } 
+    }
+}
+.userUIStreet{
+    @include userUISection;
+    .cart{
+        @include cart;
+        color:$colorGrey;
+        p{
+          @include cartItemsNumber;
+          color: $colorWhite;
+          background-color: $colorRed;
+        }
+    }
+    .user{
+         @include user;
+         color:$colorGrey;
+ 
+     }
+    .search{
+         @include search;
+         color:$colorGrey;
+     }
+ }
+ .buttonsVintage{
+    @include buttonsSection;
+    .menuButton{
+        @include menuButton;
+        color: $colorWhite;
+        &:hover{
+            color: $colorDarkGold;
+        } 
+    }
+}
+.userUIVintage{
+    @include userUISection;
+    .cart{
+        @include cart;
+        color:$colorDarkGold;
+        p{
+          @include cartItemsNumber;
+          color: $colorWhite;
+          background-color: $colorRed;
+        }
+    }
+    .user{
+         @include user;
+         color:$colorDarkGold;
+ 
+     }
+    .search{
+         @include search;
+         color:$colorDarkGold;
+     }
+ }
+ .buttonsJewellery{
+    @include buttonsSection;
+    .menuButton{
+        @include menuButton;
+        color: $colorWhite;
+        &:hover{
+            color: $colorBlue;
+        } 
+    }
+}
+.userUIJewellery{
+    @include userUISection;
+    .cart{
+        @include cart;
+        color:$colorBlue;
+        p{
+          @include cartItemsNumber;
+          color: $colorWhite;
+          background-color: $colorRed;
+        }
+    }
+    .user{
+         @include user;
+         color:$colorBlue;
+ 
+     }
+    .search{
+         @include search;
+         color:$colorBlue;
+     }
+ }
+ .buttonsHats{
+    @include buttonsSection;
+    .menuButton{
+        @include menuButton;
+        color: $colorWhite;
+        &:hover{
+            color: $colorLightBrown;
+        } 
+    }
+}
+.userUIHats{
+    @include userUISection;
+    .cart{
+        @include cart;
+        color:$colorLightBrown;
+        p{
+          @include cartItemsNumber;
+          color: $colorWhite;
+          background-color: $colorRed;
+        }
+    }
+    .user{
+         @include user;
+         color:$colorLightBrown;
+ 
+     }
+    .search{
+         @include search;
+         color:$colorLightBrown;
+     }
+ }
+ .buttonsElegance{
+    @include buttonsSection;
+    .menuButton{
+        @include menuButton;
+        color: $colorWhite;
+        &:hover{
+            color: $colorRed;
+        } 
+    }
+}
+.userUIElegance{
+    @include userUISection;
+    .cart{
+        @include cart;
+        color:$colorRed;
+        p{
+          @include cartItemsNumber;
+          color: $colorBlack;
+          background-color: $colorWhite;
+        }
+    }
+    .user{
+         @include user;
+         color:$colorRed;
+ 
+     }
+    .search{
+         @include search;
+         color:$colorRed;
+     }
+ }
+ .buttonsCountry{
+    @include buttonsSection;
+    .menuButton{
+        @include menuButton;
+        color: $colorWhite;
+        &:hover{
+            color: $colorGreen;
+        } 
+    }
+}
+.userUICountry{
+    @include userUISection;
+    .cart{
+        @include cart;
+        color:$colorGreen;
+        p{
+          @include cartItemsNumber;
+          color: $colorWhite;
+          background-color: $colorRed;
+        }
+    }
+    .user{
+         @include user;
+         color:$colorGreen;
+ 
+     }
+    .search{
+         @include search;
+         color:$colorGreen;
+     }
+ }
+    
+
+
+    

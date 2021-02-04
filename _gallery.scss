@@ -1,0 +1,75 @@
+.animatedGallery{
+   @include gallery;
+    background: linear-gradient($colorTeal, $colorLightTeal);
+    .images{
+        @include galleryImages;
+    }
+}
+
+.animatedGalleryBeach{
+    @include gallery;
+    background: linear-gradient($colorOrangeDark,$colorOrange);
+    .images{
+        @include galleryImages;
+    }
+}
+
+.animatedGalleryUnderwear{
+    @include gallery;
+    background: linear-gradient($colorPink,$colorLightPink);
+    .images{
+        @include galleryImages;
+    }
+}
+.animatedGallerySummer{
+    @include gallery;
+    background: linear-gradient($colorYellow,$colorLightYellow);
+    .images{
+        @include galleryImages;
+    }
+}
+.animatedGalleryStreetwear{
+    @include gallery;
+    background: linear-gradient($colorGrey,$colorLightGrey);
+    .images{
+        @include galleryImages;
+    }
+}
+.animatedGalleryVintage{
+    @include gallery;
+    background: linear-gradient($colorDarkGold,$colorGold);
+    .images{
+        @include galleryImages;
+    }
+}
+.animatedGalleryJewellery{
+    @include gallery;
+    background: linear-gradient($colorBlue,$colorLightBlue);
+    .images{
+        @include galleryImages;
+    }
+}
+.animatedGalleryHats{
+    @include gallery;
+    background: linear-gradient($colorBrown,$colorLightBrown);
+    .images{
+        @include galleryImages;
+    }
+}
+.animatedGalleryElegance{
+    @include gallery;
+    background: linear-gradient($colorRed,$colorLightRed);
+    .images{
+        @include galleryImages;
+    }
+}
+.animatedGalleryCountry{
+    @include gallery;
+    background: linear-gradient($colorGreen,$colorLightGreen);
+    .images{
+        @include galleryImages;
+    }
+}
+
+
+

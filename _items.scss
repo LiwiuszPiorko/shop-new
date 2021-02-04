@@ -1,0 +1,69 @@
+.itemsSection{
+    @include itemSection;
+    h1{
+        @include itemSectionTitle;
+    }
+    .items{
+      @include itemSize;
+        
+        .item{
+            @include item;
+            .add-cart{
+                opacity: 0;
+            }
+            &:hover .add-cart{
+                @include addCartButton;
+                background-color: $colorRed;     
+            }
+            .add-cartBeach{
+                opacity: 0;
+            }
+            &:hover .add-cartBeach{
+                @include addCartButton;
+                background-color: $colorOrangeDark;     
+            }
+            .add-cartUnderwear{
+                opacity: 0;
+            }
+            &:hover .add-cartUnderwear{
+                @include addCartButton;
+                background-color: $colorPink;     
+            }
+            .add-cartSummer{
+                opacity: 0;
+            }
+            &:hover .add-cartSummer{
+                @include addCartButton;
+                background-color: $colorYellow;     
+            }
+            .add-cartStreetwear{
+                opacity: 0;
+            }
+            &:hover .add-cartStreetwear{
+                @include addCartButton;
+                background-color: $colorGrey;     
+            }
+            .add-cartVintage{
+                opacity: 0;
+            }
+            &:hover .add-cartVintage{
+                @include addCartButton;
+                background-color: $colorDarkGold;     
+            }
+            .add-cartJewellery{
+                opacity: 0;
+            }
+            &:hover .add-cartJewellery{
+                @include addCartButton;
+                background-color: $colorBlue;     
+            }
+            .add-cartHats{
+                opacity: 0;
+            }
+            &:hover .add-cartHats{
+                @include addCartButton;
+                background-color: $colorLightBrown;     
+            }
+        }
+    }
+}

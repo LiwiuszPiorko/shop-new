@@ -1,0 +1,184 @@
+@mixin menu {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@mixin logo{
+    flex-basis: 10%;
+        height: 90%;
+        position: relative;
+        img{
+            width: 100%;
+            height: 90%;
+        }
+        h1{
+            position: absolute;
+            font-family: $fancifulCursive;
+            font-size: 3vw;
+            color: $colorWhite;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            z-index: 100;
+        }
+}
+
+@mixin buttonsSection{
+    flex-basis: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@mixin menuButton{
+    font-family: $fancifulCursive;
+    font-size: 1.7vw;
+    cursor: pointer;
+    text-decoration: none;
+    transition: .5s;
+}
+
+@mixin userUISection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@mixin cart{
+    padding: 0.75em;
+    font-size: 2vw;
+    cursor: pointer;
+    position: relative;
+}
+
+@mixin cartItemsNumber{
+    width: 1.3em;
+    height: 1.3em;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+@mixin user {
+    padding: 0.75em;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+@mixin search {
+    padding: 0.75em;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+@mixin gallery {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+@mixin galleryImages {
+    display: flex;
+    img:nth-child(1){
+        width: 30%;
+        height: 60%;
+        transform: rotate(10deg);
+        -webkit-box-shadow: 10px 10px 42px 0px rgba(0,0,0,1);
+        -moz-box-shadow: 10px 10px 42px 0px rgba(0,0,0,1);
+        box-shadow: 10px 10px 42px 0px rgba(0,0,0,1);
+    }
+    img:nth-child(2){
+        width: 20%;
+        height: 70%;
+        transform: rotate(350deg);
+        -webkit-box-shadow: 10px 10px 42px 0px rgba(0,0,0,1);
+        -moz-box-shadow: 10px 10px 42px 0px rgba(0,0,0,1);
+        box-shadow: 10px 10px 42px 0px rgba(0,0,0,1);
+    }
+    img:nth-child(3){
+        width: 30%;
+        height: 60%;
+        -webkit-box-shadow: 10px 10px 42px 0px rgba(0,0,0,1);
+        -moz-box-shadow: 10px 10px 42px 0px rgba(0,0,0,1);
+        box-shadow: 10px 10px 42px 0px rgba(0,0,0,1);
+    }
+    img:nth-child(4){
+        width: 20%;
+        height: 60%;
+        transform: rotate(10deg);
+        -webkit-box-shadow: 10px 10px 42px 0px rgba(0,0,0,1);
+        -moz-box-shadow: 10px 10px 42px 0px rgba(0,0,0,1);
+        box-shadow: 10px 10px 42px 0px rgba(0,0,0,1);
+    }
+    
+}
+
+@mixin itemSection{
+    height: 350vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@mixin itemSectionTitle {
+    height: 10vh;
+    font-family:$fancifulCursive2;
+    font-size: 3vw;
+    line-height: 10vh;
+    color: $colorWhite;   
+}
+
+@mixin itemSize{
+    width: 80%;
+    height: 270vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@mixin item{
+    flex-basis: 21%;
+    height: 24%;
+    text-align: center;
+    text-decoration: none;
+    img{
+        height: 75%;
+        width: 100%;
+    }
+    .name{
+        height: 10%;
+        width: 100%;
+        font-family: $fancifulCursive2;
+        font-size: 1.5vw;
+        color: $colorWhite;
+    }
+    .price{
+        height: 5%;
+        width: 100%;
+        font-size:.9vw;
+        font-family:$fancifulCursive2;
+        color: $colorWhite;
+    }
+
+}
+@mixin addCartButton {
+        opacity: 1;
+        height: 10%;
+        width:100%;
+        background-color: $colorRed;
+        font-family:$fancifulCursive;
+        border: none;
+        cursor: pointer;   
+    
+}
+    
+  

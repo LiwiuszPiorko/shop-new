@@ -1,0 +1,3595 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.menu {
+  width: 100%;
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+}
+
+.menu .logo {
+  -ms-flex-preferred-size: 10%;
+      flex-basis: 10%;
+  height: 90%;
+  position: relative;
+}
+
+.menu .logo img {
+  width: 100%;
+  height: 90%;
+}
+
+.menu .logo h1 {
+  position: absolute;
+  font-family: "Bangers", cursive;
+  font-size: 3vw;
+  color: ghostwhite;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.menu .buttons {
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu .buttons .menuButton {
+  font-family: "Bangers", cursive;
+  font-size: 1.7vw;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: ghostwhite;
+}
+
+.menu .buttons .menuButton:hover {
+  color: #04626e;
+}
+
+.menu .userUI {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu .userUI .cart {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  position: relative;
+  color: #04626e;
+}
+
+.menu .userUI .cart p {
+  width: 1.3em;
+  height: 1.3em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  color: ghostwhite;
+  background-color: #a81b1b;
+}
+
+.menu .userUI .user {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  color: #04626e;
+}
+
+.menu .userUI .search {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  color: #04626e;
+}
+
+.buttonsBeach {
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buttonsBeach .menuButton {
+  font-family: "Bangers", cursive;
+  font-size: 1.7vw;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: ghostwhite;
+}
+
+.buttonsBeach .menuButton:hover {
+  color: orangered;
+}
+
+.userUIBeach {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.userUIBeach .cart {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  position: relative;
+  color: orangered;
+}
+
+.userUIBeach .cart p {
+  width: 1.3em;
+  height: 1.3em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  color: ghostwhite;
+  background-color: #a81b1b;
+}
+
+.userUIBeach .user {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  color: orangered;
+}
+
+.userUIBeach .search {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  color: orangered;
+}
+
+.buttonsUnderwear {
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buttonsUnderwear .menuButton {
+  font-family: "Bangers", cursive;
+  font-size: 1.7vw;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: ghostwhite;
+}
+
+.buttonsUnderwear .menuButton:hover {
+  color: #eb0580;
+}
+
+.userUIUnderwear {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.userUIUnderwear .cart {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  position: relative;
+  color: #eb0580;
+}
+
+.userUIUnderwear .cart p {
+  width: 1.3em;
+  height: 1.3em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  color: ghostwhite;
+  background-color: #a81b1b;
+}
+
+.userUIUnderwear .user {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  color: #eb0580;
+}
+
+.userUIUnderwear .search {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  color: #eb0580;
+}
+
+.buttonsSummer {
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buttonsSummer .menuButton {
+  font-family: "Bangers", cursive;
+  font-size: 1.7vw;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: ghostwhite;
+}
+
+.buttonsSummer .menuButton:hover {
+  color: #f1ca1d;
+}
+
+.userUISummer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.userUISummer .cart {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  position: relative;
+  color: #f1ca1d;
+}
+
+.userUISummer .cart p {
+  width: 1.3em;
+  height: 1.3em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  color: ghostwhite;
+  background-color: #a81b1b;
+}
+
+.userUISummer .user {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  color: #f1ca1d;
+}
+
+.userUISummer .search {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  color: #f1ca1d;
+}
+
+.buttonsStreet {
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buttonsStreet .menuButton {
+  font-family: "Bangers", cursive;
+  font-size: 1.7vw;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: ghostwhite;
+}
+
+.buttonsStreet .menuButton:hover {
+  color: slategray;
+}
+
+.userUIStreet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.userUIStreet .cart {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  position: relative;
+  color: slategray;
+}
+
+.userUIStreet .cart p {
+  width: 1.3em;
+  height: 1.3em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  color: ghostwhite;
+  background-color: #a81b1b;
+}
+
+.userUIStreet .user {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  color: slategray;
+}
+
+.userUIStreet .search {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  color: slategray;
+}
+
+.buttonsVintage {
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buttonsVintage .menuButton {
+  font-family: "Bangers", cursive;
+  font-size: 1.7vw;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: ghostwhite;
+}
+
+.buttonsVintage .menuButton:hover {
+  color: #86630c;
+}
+
+.userUIVintage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.userUIVintage .cart {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  position: relative;
+  color: #86630c;
+}
+
+.userUIVintage .cart p {
+  width: 1.3em;
+  height: 1.3em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  color: ghostwhite;
+  background-color: #a81b1b;
+}
+
+.userUIVintage .user {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  color: #86630c;
+}
+
+.userUIVintage .search {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  color: #86630c;
+}
+
+.buttonsJewellery {
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buttonsJewellery .menuButton {
+  font-family: "Bangers", cursive;
+  font-size: 1.7vw;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: ghostwhite;
+}
+
+.buttonsJewellery .menuButton:hover {
+  color: #1764b1;
+}
+
+.userUIJewellery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.userUIJewellery .cart {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  position: relative;
+  color: #1764b1;
+}
+
+.userUIJewellery .cart p {
+  width: 1.3em;
+  height: 1.3em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  color: ghostwhite;
+  background-color: #a81b1b;
+}
+
+.userUIJewellery .user {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  color: #1764b1;
+}
+
+.userUIJewellery .search {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  color: #1764b1;
+}
+
+.buttonsHats {
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buttonsHats .menuButton {
+  font-family: "Bangers", cursive;
+  font-size: 1.7vw;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: ghostwhite;
+}
+
+.buttonsHats .menuButton:hover {
+  color: #994d00;
+}
+
+.userUIHats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.userUIHats .cart {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  position: relative;
+  color: #994d00;
+}
+
+.userUIHats .cart p {
+  width: 1.3em;
+  height: 1.3em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  color: ghostwhite;
+  background-color: #a81b1b;
+}
+
+.userUIHats .user {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  color: #994d00;
+}
+
+.userUIHats .search {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  color: #994d00;
+}
+
+.buttonsElegance {
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buttonsElegance .menuButton {
+  font-family: "Bangers", cursive;
+  font-size: 1.7vw;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: ghostwhite;
+}
+
+.buttonsElegance .menuButton:hover {
+  color: #a81b1b;
+}
+
+.userUIElegance {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.userUIElegance .cart {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  position: relative;
+  color: #a81b1b;
+}
+
+.userUIElegance .cart p {
+  width: 1.3em;
+  height: 1.3em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  color: black;
+  background-color: ghostwhite;
+}
+
+.userUIElegance .user {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  color: #a81b1b;
+}
+
+.userUIElegance .search {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  color: #a81b1b;
+}
+
+.buttonsCountry {
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buttonsCountry .menuButton {
+  font-family: "Bangers", cursive;
+  font-size: 1.7vw;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: ghostwhite;
+}
+
+.buttonsCountry .menuButton:hover {
+  color: #006b00;
+}
+
+.userUICountry {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.userUICountry .cart {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  position: relative;
+  color: #006b00;
+}
+
+.userUICountry .cart p {
+  width: 1.3em;
+  height: 1.3em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  color: ghostwhite;
+  background-color: #a81b1b;
+}
+
+.userUICountry .user {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  color: #006b00;
+}
+
+.userUICountry .search {
+  padding: 0.75em;
+  font-size: 2vw;
+  cursor: pointer;
+  color: #006b00;
+}
+
+.animatedGallery {
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#04626e), to(#51c2c2));
+  background: linear-gradient(#04626e, #51c2c2);
+}
+
+.animatedGallery .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.animatedGallery .images img:nth-child(1) {
+  width: 30%;
+  height: 60%;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGallery .images img:nth-child(2) {
+  width: 20%;
+  height: 70%;
+  -webkit-transform: rotate(350deg);
+          transform: rotate(350deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGallery .images img:nth-child(3) {
+  width: 30%;
+  height: 60%;
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGallery .images img:nth-child(4) {
+  width: 20%;
+  height: 60%;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryBeach {
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(orangered), to(#e77d56));
+  background: linear-gradient(orangered, #e77d56);
+}
+
+.animatedGalleryBeach .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.animatedGalleryBeach .images img:nth-child(1) {
+  width: 30%;
+  height: 60%;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryBeach .images img:nth-child(2) {
+  width: 20%;
+  height: 70%;
+  -webkit-transform: rotate(350deg);
+          transform: rotate(350deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryBeach .images img:nth-child(3) {
+  width: 30%;
+  height: 60%;
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryBeach .images img:nth-child(4) {
+  width: 20%;
+  height: 60%;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryUnderwear {
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#eb0580), to(#e776b2));
+  background: linear-gradient(#eb0580, #e776b2);
+}
+
+.animatedGalleryUnderwear .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.animatedGalleryUnderwear .images img:nth-child(1) {
+  width: 30%;
+  height: 60%;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryUnderwear .images img:nth-child(2) {
+  width: 20%;
+  height: 70%;
+  -webkit-transform: rotate(350deg);
+          transform: rotate(350deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryUnderwear .images img:nth-child(3) {
+  width: 30%;
+  height: 60%;
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryUnderwear .images img:nth-child(4) {
+  width: 20%;
+  height: 60%;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGallerySummer {
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f1ca1d), to(#f6de6f));
+  background: linear-gradient(#f1ca1d, #f6de6f);
+}
+
+.animatedGallerySummer .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.animatedGallerySummer .images img:nth-child(1) {
+  width: 30%;
+  height: 60%;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGallerySummer .images img:nth-child(2) {
+  width: 20%;
+  height: 70%;
+  -webkit-transform: rotate(350deg);
+          transform: rotate(350deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGallerySummer .images img:nth-child(3) {
+  width: 30%;
+  height: 60%;
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGallerySummer .images img:nth-child(4) {
+  width: 20%;
+  height: 60%;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryStreetwear {
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(slategray), to(#c2ccd3));
+  background: linear-gradient(slategray, #c2ccd3);
+}
+
+.animatedGalleryStreetwear .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.animatedGalleryStreetwear .images img:nth-child(1) {
+  width: 30%;
+  height: 60%;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryStreetwear .images img:nth-child(2) {
+  width: 20%;
+  height: 70%;
+  -webkit-transform: rotate(350deg);
+          transform: rotate(350deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryStreetwear .images img:nth-child(3) {
+  width: 30%;
+  height: 60%;
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryStreetwear .images img:nth-child(4) {
+  width: 20%;
+  height: 60%;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryVintage {
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#86630c), to(#dda71d));
+  background: linear-gradient(#86630c, #dda71d);
+}
+
+.animatedGalleryVintage .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.animatedGalleryVintage .images img:nth-child(1) {
+  width: 30%;
+  height: 60%;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryVintage .images img:nth-child(2) {
+  width: 20%;
+  height: 70%;
+  -webkit-transform: rotate(350deg);
+          transform: rotate(350deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryVintage .images img:nth-child(3) {
+  width: 30%;
+  height: 60%;
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryVintage .images img:nth-child(4) {
+  width: 20%;
+  height: 60%;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryJewellery {
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1764b1), to(#99ccff));
+  background: linear-gradient(#1764b1, #99ccff);
+}
+
+.animatedGalleryJewellery .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.animatedGalleryJewellery .images img:nth-child(1) {
+  width: 30%;
+  height: 60%;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryJewellery .images img:nth-child(2) {
+  width: 20%;
+  height: 70%;
+  -webkit-transform: rotate(350deg);
+          transform: rotate(350deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryJewellery .images img:nth-child(3) {
+  width: 30%;
+  height: 60%;
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryJewellery .images img:nth-child(4) {
+  width: 20%;
+  height: 60%;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryHats {
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#4d2600), to(#994d00));
+  background: linear-gradient(#4d2600, #994d00);
+}
+
+.animatedGalleryHats .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.animatedGalleryHats .images img:nth-child(1) {
+  width: 30%;
+  height: 60%;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryHats .images img:nth-child(2) {
+  width: 20%;
+  height: 70%;
+  -webkit-transform: rotate(350deg);
+          transform: rotate(350deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryHats .images img:nth-child(3) {
+  width: 30%;
+  height: 60%;
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryHats .images img:nth-child(4) {
+  width: 20%;
+  height: 60%;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryElegance {
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#a81b1b), to(#ff6262));
+  background: linear-gradient(#a81b1b, #ff6262);
+}
+
+.animatedGalleryElegance .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.animatedGalleryElegance .images img:nth-child(1) {
+  width: 30%;
+  height: 60%;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryElegance .images img:nth-child(2) {
+  width: 20%;
+  height: 70%;
+  -webkit-transform: rotate(350deg);
+          transform: rotate(350deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryElegance .images img:nth-child(3) {
+  width: 30%;
+  height: 60%;
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryElegance .images img:nth-child(4) {
+  width: 20%;
+  height: 60%;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryCountry {
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#006b00), to(#8bda8b));
+  background: linear-gradient(#006b00, #8bda8b);
+}
+
+.animatedGalleryCountry .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.animatedGalleryCountry .images img:nth-child(1) {
+  width: 30%;
+  height: 60%;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryCountry .images img:nth-child(2) {
+  width: 20%;
+  height: 70%;
+  -webkit-transform: rotate(350deg);
+          transform: rotate(350deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryCountry .images img:nth-child(3) {
+  width: 30%;
+  height: 60%;
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.animatedGalleryCountry .images img:nth-child(4) {
+  width: 20%;
+  height: 60%;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.itemsSection {
+  height: 350vh;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.itemsSection h1 {
+  height: 10vh;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 3vw;
+  line-height: 10vh;
+  color: ghostwhite;
+}
+
+.itemsSection .items {
+  width: 80%;
+  height: 270vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.itemsSection .items .item {
+  -ms-flex-preferred-size: 21%;
+      flex-basis: 21%;
+  height: 24%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.itemsSection .items .item img {
+  height: 75%;
+  width: 100%;
+}
+
+.itemsSection .items .item .name {
+  height: 10%;
+  width: 100%;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 1.5vw;
+  color: ghostwhite;
+}
+
+.itemsSection .items .item .price {
+  height: 5%;
+  width: 100%;
+  font-size: .9vw;
+  font-family: "Shadows Into Light", cursive;
+  color: ghostwhite;
+}
+
+.itemsSection .items .item .add-cart {
+  opacity: 0;
+}
+
+.itemsSection .items .item:hover .add-cart {
+  opacity: 1;
+  height: 10%;
+  width: 100%;
+  background-color: #a81b1b;
+  font-family: "Bangers", cursive;
+  border: none;
+  cursor: pointer;
+  background-color: #a81b1b;
+}
+
+.itemsSection .items .item .add-cartBeach {
+  opacity: 0;
+}
+
+.itemsSection .items .item:hover .add-cartBeach {
+  opacity: 1;
+  height: 10%;
+  width: 100%;
+  background-color: #a81b1b;
+  font-family: "Bangers", cursive;
+  border: none;
+  cursor: pointer;
+  background-color: orangered;
+}
+
+.itemsSection .items .item .add-cartUnderwear {
+  opacity: 0;
+}
+
+.itemsSection .items .item:hover .add-cartUnderwear {
+  opacity: 1;
+  height: 10%;
+  width: 100%;
+  background-color: #a81b1b;
+  font-family: "Bangers", cursive;
+  border: none;
+  cursor: pointer;
+  background-color: #eb0580;
+}
+
+.itemsSection .items .item .add-cartSummer {
+  opacity: 0;
+}
+
+.itemsSection .items .item:hover .add-cartSummer {
+  opacity: 1;
+  height: 10%;
+  width: 100%;
+  background-color: #a81b1b;
+  font-family: "Bangers", cursive;
+  border: none;
+  cursor: pointer;
+  background-color: #f1ca1d;
+}
+
+.itemsSection .items .item .add-cartStreetwear {
+  opacity: 0;
+}
+
+.itemsSection .items .item:hover .add-cartStreetwear {
+  opacity: 1;
+  height: 10%;
+  width: 100%;
+  background-color: #a81b1b;
+  font-family: "Bangers", cursive;
+  border: none;
+  cursor: pointer;
+  background-color: slategray;
+}
+
+.itemsSection .items .item .add-cartVintage {
+  opacity: 0;
+}
+
+.itemsSection .items .item:hover .add-cartVintage {
+  opacity: 1;
+  height: 10%;
+  width: 100%;
+  background-color: #a81b1b;
+  font-family: "Bangers", cursive;
+  border: none;
+  cursor: pointer;
+  background-color: #86630c;
+}
+
+.itemsSection .items .item .add-cartJewellery {
+  opacity: 0;
+}
+
+.itemsSection .items .item:hover .add-cartJewellery {
+  opacity: 1;
+  height: 10%;
+  width: 100%;
+  background-color: #a81b1b;
+  font-family: "Bangers", cursive;
+  border: none;
+  cursor: pointer;
+  background-color: #1764b1;
+}
+
+.itemsSection .items .item .add-cartHats {
+  opacity: 0;
+}
+
+.itemsSection .items .item:hover .add-cartHats {
+  opacity: 1;
+  height: 10%;
+  width: 100%;
+  background-color: #a81b1b;
+  font-family: "Bangers", cursive;
+  border: none;
+  cursor: pointer;
+  background-color: #994d00;
+}
+
+.shortcuts {
+  height: 80vh;
+  width: 100%;
+}
+
+.shortcuts .links {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.shortcuts .links .link-first {
+  height: 100%;
+  width: 25%;
+  position: relative;
+}
+
+.shortcuts .links .link-first img {
+  height: 100%;
+  width: 100%;
+}
+
+.shortcuts .links .link-first h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .3em;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 4vw;
+  color: ghostwhite;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 6px solid ghostwhite;
+}
+
+.shortcuts .links .link-second {
+  height: 100%;
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.shortcuts .links .link-second .image-display1 {
+  height: 65%;
+  width: 100%;
+  position: relative;
+}
+
+.shortcuts .links .link-second .image-display1 img {
+  height: 100%;
+  width: 100%;
+}
+
+.shortcuts .links .link-second .image-display1 h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .3em;
+  font-family: "Bangers", cursive;
+  font-size: 4vw;
+  color: #04626e;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 10px solid #04626e;
+}
+
+.shortcuts .links .link-second .image-display2 {
+  height: 35%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.shortcuts .links .link-second .image-display2 .img1 {
+  height: 100%;
+  width: 50%;
+  position: relative;
+}
+
+.shortcuts .links .link-second .image-display2 .img1 img {
+  height: 100%;
+  width: 100%;
+}
+
+.shortcuts .links .link-second .image-display2 .img1 h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .3em;
+  font-family: "Bangers", cursive;
+  font-size: 2vw;
+  color: #04626e;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 6px solid #04626e;
+}
+
+.shortcuts .links .link-second .image-display2 .img2 {
+  height: 100%;
+  width: 50%;
+  position: relative;
+}
+
+.shortcuts .links .link-second .image-display2 .img2 img {
+  height: 100%;
+  width: 100%;
+}
+
+.shortcuts .links .link-second .image-display2 .img2 h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .3em;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 2vw;
+  color: ghostwhite;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 3px solid ghostwhite;
+}
+
+.shortcuts .links .link-third {
+  height: 100%;
+  width: 30%;
+  background-color: royalblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.shortcuts .links .link-third .img1 {
+  height: 50%;
+  width: 100%;
+  position: relative;
+}
+
+.shortcuts .links .link-third .img1 img {
+  height: 100%;
+  width: 100%;
+}
+
+.shortcuts .links .link-third .img1 h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .3em;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 3vw;
+  color: #a81b1b;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 3px solid #a81b1b;
+}
+
+.shortcuts .links .link-third .img2 {
+  height: 50%;
+  width: 100%;
+  position: relative;
+}
+
+.shortcuts .links .link-third .img2 img {
+  height: 100%;
+  width: 100%;
+}
+
+.shortcuts .links .link-third .img2 h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .3em;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 3vw;
+  color: ghostwhite;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 5px solid ghostwhite;
+}
+
+.about {
+  height: 80vh;
+  width: 100%;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about h1 {
+  height: 20%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Bangers", cursive;
+  font-size: 3vw;
+  color: ghostwhite;
+  text-decoration: underline;
+}
+
+.about .video-div {
+  height: 40%;
+  width: 28%;
+}
+
+.about .video-div video {
+  height: 100%;
+  width: 100%;
+}
+
+.about p {
+  height: 40%;
+  width: 100%;
+  padding: 3em;
+  text-align: justify;
+  font-family: "Bangers", cursive;
+  font-size: 1vw;
+  color: ghostwhite;
+}
+
+.footer {
+  height: 70vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+}
+
+.footer .first-div-logo {
+  height: 30%;
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid ghostwhite;
+}
+
+.footer .first-div-logo .logo {
+  height: 80%;
+  width: 10%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .first-div-logo .logo img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.footer .first-div-logo .logo h1 {
+  position: absolute;
+  font-family: "Bangers", cursive;
+  font-size: 2.5vw;
+  color: ghostwhite;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.footer .first-div-logo .backwards-button {
+  height: 90%;
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  color: ghostwhite;
+}
+
+.footer .first-div-logo .backwards-button h3 {
+  font-family: "Bangers", cursive;
+  font-size: 2vw;
+}
+
+.footer .first-div-logo .backwards-button span {
+  padding-left: .3em;
+  font-size: 2vw;
+}
+
+.footer .second-div-contacts {
+  height: 60%;
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid ghostwhite;
+}
+
+.footer .second-div-contacts .first-element {
+  height: 30%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: ghostwhite;
+}
+
+.footer .second-div-contacts .first-element h1 {
+  width: 10%;
+  text-align: center;
+  font-family: "Bangers", cursive;
+  border-right: 2px solid ghostwhite;
+}
+
+.footer .second-div-contacts .first-element .first-element-spans {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-family: "Bangers", cursive;
+  font-size: 1.5vw;
+}
+
+.footer .second-div-contacts .first-element .first-element-spans a {
+  color: ghostwhite;
+  text-decoration: none;
+}
+
+.footer .second-div-contacts .second-element {
+  height: 30%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: ghostwhite;
+}
+
+.footer .second-div-contacts .second-element h1 {
+  width: 10%;
+  text-align: center;
+  font-family: "Bangers", cursive;
+  border-right: 2px solid ghostwhite;
+}
+
+.footer .second-div-contacts .second-element .second-element-spans {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-family: "Bangers", cursive;
+  font-size: 1.5vw;
+}
+
+.footer .second-div-contacts .second-element .second-element-spans a {
+  color: ghostwhite;
+  text-decoration: none;
+}
+
+.footer .second-div-contacts .second-element .second-element-spans a i {
+  padding: .2em;
+}
+
+.footer .rights {
+  height: 10%;
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: ghostwhite;
+}
+
+.footer .rights span {
+  font-family: "Shadows Into Light", cursive;
+  font-size: .7vw;
+}
+
+.shortcuts1 {
+  height: 110vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.shortcuts1 .links1 {
+  height: 70%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: lightcoral;
+}
+
+.shortcuts1 .links1 .link-first {
+  height: 100%;
+  width: 25%;
+  position: relative;
+}
+
+.shortcuts1 .links1 .link-first img {
+  height: 100%;
+  width: 100%;
+}
+
+.shortcuts1 .links1 .link-first h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .3em;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 4vw;
+  color: ghostwhite;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 6px solid ghostwhite;
+}
+
+.shortcuts1 .links1 .link-second {
+  height: 100%;
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.shortcuts1 .links1 .link-second .image-display1 {
+  height: 65%;
+  width: 100%;
+  position: relative;
+}
+
+.shortcuts1 .links1 .link-second .image-display1 img {
+  height: 100%;
+  width: 100%;
+}
+
+.shortcuts1 .links1 .link-second .image-display1 h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .3em;
+  font-family: "Bangers", cursive;
+  font-size: 4vw;
+  color: #04626e;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 10px solid #04626e;
+}
+
+.shortcuts1 .links1 .link-second .image-display2 {
+  height: 35%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.shortcuts1 .links1 .link-second .image-display2 .img1 {
+  height: 100%;
+  width: 50%;
+  position: relative;
+}
+
+.shortcuts1 .links1 .link-second .image-display2 .img1 img {
+  height: 100%;
+  width: 100%;
+}
+
+.shortcuts1 .links1 .link-second .image-display2 .img1 h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .3em;
+  font-family: "Bangers", cursive;
+  font-size: 2vw;
+  color: #04626e;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 6px solid #04626e;
+}
+
+.shortcuts1 .links1 .link-second .image-display2 .img2 {
+  height: 100%;
+  width: 50%;
+  position: relative;
+}
+
+.shortcuts1 .links1 .link-second .image-display2 .img2 img {
+  height: 100%;
+  width: 100%;
+}
+
+.shortcuts1 .links1 .link-second .image-display2 .img2 h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .3em;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 2vw;
+  color: ghostwhite;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 3px solid ghostwhite;
+}
+
+.shortcuts1 .links1 .link-third {
+  height: 100%;
+  width: 30%;
+  background-color: royalblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.shortcuts1 .links1 .link-third .img1 {
+  height: 50%;
+  width: 100%;
+  position: relative;
+}
+
+.shortcuts1 .links1 .link-third .img1 img {
+  height: 100%;
+  width: 100%;
+}
+
+.shortcuts1 .links1 .link-third .img1 h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .3em;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 3vw;
+  color: #a81b1b;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 3px solid #a81b1b;
+}
+
+.shortcuts1 .links1 .link-third .img2 {
+  height: 50%;
+  width: 100%;
+  position: relative;
+}
+
+.shortcuts1 .links1 .link-third .img2 img {
+  height: 100%;
+  width: 100%;
+}
+
+.shortcuts1 .links1 .link-third .img2 h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .3em;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 3vw;
+  color: ghostwhite;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 5px solid ghostwhite;
+}
+
+.shortcuts1 .links2 {
+  height: 30%;
+  width: 100%;
+  background-color: lawngreen;
+}
+
+.shortcuts1 .links2 .link-fourth {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.shortcuts1 .links2 .link-fourth .img1 {
+  height: 100%;
+  width: 35%;
+  position: relative;
+  background-color: lightseagreen;
+}
+
+.shortcuts1 .links2 .link-fourth .img1 img {
+  height: 100%;
+  width: 100%;
+}
+
+.shortcuts1 .links2 .link-fourth .img1 h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .3em;
+  font-family: "Bangers", cursive;
+  font-size: 2vw;
+  color: #04626e;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 3px solid #04626e;
+}
+
+.shortcuts1 .links2 .link-fourth .img2 {
+  height: 100%;
+  width: 25%;
+  position: relative;
+}
+
+.shortcuts1 .links2 .link-fourth .img2 img {
+  height: 100%;
+  width: 100%;
+}
+
+.shortcuts1 .links2 .link-fourth .img2 h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .3em;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 2vw;
+  color: ghostwhite;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 3px solid ghostwhite;
+}
+
+.shortcuts1 .links2 .link-fourth .img3 {
+  height: 100%;
+  width: 40%;
+  position: relative;
+  background-color: royalblue;
+}
+
+.shortcuts1 .links2 .link-fourth .img3 img {
+  height: 100%;
+  width: 100%;
+}
+
+.shortcuts1 .links2 .link-fourth .img3 h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .3em;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 2vw;
+  color: ghostwhite;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 3px solid ghostwhite;
+}
+
+.itemView {
+  height: 85vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+}
+
+.itemView .itemDescription {
+  height: 100%;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.itemView .itemDescription img {
+  height: 50%;
+  width: 25%;
+}
+
+.itemView .itemDescription .description {
+  height: 40%;
+  width: 70%;
+}
+
+.itemView .itemDescription .description p {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 1.2vw;
+  color: ghostwhite;
+}
+
+.itemView .itemDescription .description p span {
+  padding: .2em;
+  font-size: 1.5vw;
+  font-weight: 700;
+}
+
+.itemView .buyItemSection {
+  height: 100%;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.itemView .buyItemSection .price {
+  height: 20%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 2vw;
+  color: ghostwhite;
+}
+
+.itemView .buyItemSection .price span {
+  padding: .2em;
+  font-size: 3vw;
+}
+
+.itemView .buyItemSection .size {
+  height: 10%;
+  width: 60%;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 2vw;
+  color: ghostwhite;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.itemView .buyItemSection .buy {
+  height: 15%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.itemView .buyItemSection .buy .text {
+  height: 50%;
+  width: 20%;
+  text-align: center;
+}
+
+.itemView .buyItemSection .buy span {
+  padding: .2em;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 2vw;
+  color: ghostwhite;
+}
+
+.itemView .buyItemSection .buy .button {
+  height: 50%;
+  width: 30%;
+  background-color: #a81b1b;
+  font-family: "Bangers", cursive;
+  border: none;
+  cursor: pointer;
+}
+
+.faq {
+  height: 200vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+}
+
+.faq .side-section {
+  height: 100%;
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.faq .side-section h3 {
+  height: 3%;
+  width: 100%;
+  font-family: "Shadows Into Light", cursive;
+  color: ghostwhite;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.faq .side-section .form {
+  height: 30%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.faq .side-section .form .email {
+  height: 10%;
+  width: 80%;
+  text-align: center;
+  font-family: "Bangers", cursive;
+}
+
+.faq .side-section .form .textarea {
+  height: 70%;
+  width: 80%;
+  text-align: center;
+  font-family: "Bangers", cursive;
+}
+
+.faq .side-section .form .formBtn {
+  height: 10%;
+  width: 80%;
+  font-family: "Bangers", cursive;
+  color: ghostwhite;
+  background-color: #04626e;
+  border: none;
+}
+
+.faq .side-section .questionaire {
+  height: 30%;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.faq .side-section .questionaire .qa {
+  height: 20%;
+  width: 100%;
+  font-family: "Shadows Into Light", cursive;
+  color: ghostwhite;
+}
+
+.faq .side-section .questionaire .qa p {
+  height: 30%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: .9vw;
+  background-color: ghostwhite;
+}
+
+.faq .side-section .questionaire .qa .qa-form {
+  height: 60%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #04626e;
+}
+
+.faq .side-section .questionaire .formBtn {
+  height: 10%;
+  width: 100%;
+  font-family: "Bangers", cursive;
+  color: ghostwhite;
+  background-color: #04626e;
+  border: none;
+}
+
+.faq .side-section .faq-links {
+  height: 40%;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.faq .side-section .faq-links .link-elements {
+  height: 100%;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.faq .side-section .faq-links .link-elements a:nth-of-type(1) {
+  height: 30%;
+  width: 110%;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.faq .side-section .faq-links .link-elements a:nth-of-type(1) h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: "Bangers", cursive;
+  color: ghostwhite;
+  font-size: 3vw;
+  opacity: 0;
+}
+
+.faq .side-section .faq-links .link-elements a:nth-of-type(1) img {
+  height: 100%;
+  width: 100%;
+}
+
+.faq .side-section .faq-links .link-elements a:nth-of-type(1):hover {
+  z-index: 100;
+  border: 10px solid #04626e;
+}
+
+.faq .side-section .faq-links .link-elements a:nth-of-type(1):hover h1 {
+  opacity: 1;
+}
+
+.faq .side-section .faq-links .link-elements a:nth-of-type(2) {
+  height: 20%;
+  width: 80%;
+  -webkit-transform: rotate(340deg);
+          transform: rotate(340deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.faq .side-section .faq-links .link-elements a:nth-of-type(2) h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: "Bangers", cursive;
+  color: ghostwhite;
+  font-size: 2vw;
+  opacity: 0;
+}
+
+.faq .side-section .faq-links .link-elements a:nth-of-type(2) img {
+  height: 100%;
+  width: 100%;
+}
+
+.faq .side-section .faq-links .link-elements a:nth-of-type(2):hover {
+  z-index: 100;
+  border: 10px solid #04626e;
+}
+
+.faq .side-section .faq-links .link-elements a:nth-of-type(2):hover h1 {
+  opacity: 1;
+}
+
+.faq .side-section .faq-links .link-elements a:nth-of-type(3) {
+  height: 25%;
+  width: 90%;
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+  position: relative;
+}
+
+.faq .side-section .faq-links .link-elements a:nth-of-type(3) h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: "Bangers", cursive;
+  color: ghostwhite;
+  font-size: 1.5vw;
+  opacity: 0;
+}
+
+.faq .side-section .faq-links .link-elements a:nth-of-type(3) img {
+  height: 100%;
+  width: 100%;
+}
+
+.faq .side-section .faq-links .link-elements a:nth-of-type(3):hover {
+  z-index: 100;
+  border: 10px solid #04626e;
+}
+
+.faq .side-section .faq-links .link-elements a:nth-of-type(3):hover h1 {
+  opacity: 1;
+}
+
+.faq .main-section {
+  height: 100%;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.faq .main-section .title {
+  height: 2%;
+  width: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Bangers", cursive;
+  color: ghostwhite;
+  border-left: 3px solid ghostwhite;
+}
+
+.faq .main-section .contact {
+  height: 10%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 1.7vw;
+}
+
+.faq .main-section .contact p:nth-of-type(1) {
+  font-family: "Shadows Into Light", cursive;
+  color: ghostwhite;
+}
+
+.faq .main-section .contact p:nth-of-type(2), .faq .main-section .contact p:nth-of-type(3) {
+  font-family: "Shadows Into Light", cursive;
+  color: ghostwhite;
+}
+
+.faq .main-section .contact p:nth-of-type(2) span, .faq .main-section .contact p:nth-of-type(3) span {
+  padding: .2em;
+  font-family: "Bangers", cursive;
+  color: #04626e;
+}
+
+.faq .main-section .sale-questions {
+  height: 30%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.faq .main-section .sale-questions h1 {
+  height: 5%;
+  width: 100%;
+  padding-left: .5em;
+  font-family: "Bangers", cursive;
+  color: ghostwhite;
+  border-left: 3px solid ghostwhite;
+}
+
+.faq .main-section .sale-questions .sale-question {
+  padding: .2em;
+  height: 15%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.faq .main-section .sale-questions .sale-question h1 {
+  height: 40%;
+  color: #04626e;
+  border: none;
+}
+
+.faq .main-section .sale-questions .sale-question p {
+  padding-left: .5em;
+  height: 60%;
+  font-family: "Shadows Into Light", cursive;
+  color: ghostwhite;
+}
+
+.contact-section {
+  height: 200vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-section .aesthetics {
+  height: 100%;
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #04626e;
+}
+
+.contact-section .aesthetics .aesthetics-images {
+  height: 80%;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-section .aesthetics .aesthetics-images a:nth-of-type(1) {
+  height: 25%;
+  width: 120%;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.contact-section .aesthetics .aesthetics-images a:nth-of-type(1) h1 {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  font-family: "Bangers", cursive;
+  color: ghostwhite;
+  font-size: 2.5vw;
+  opacity: 0;
+}
+
+.contact-section .aesthetics .aesthetics-images a:nth-of-type(1) img {
+  height: 100%;
+  width: 100%;
+}
+
+.contact-section .aesthetics .aesthetics-images a:nth-of-type(1):hover {
+  z-index: 100;
+  border: 10px solid #04626e;
+}
+
+.contact-section .aesthetics .aesthetics-images a:nth-of-type(1):hover h1 {
+  opacity: 1;
+}
+
+.contact-section .aesthetics .aesthetics-images a:nth-of-type(2) {
+  height: 25%;
+  width: 100%;
+  -webkit-transform: rotate(320deg);
+          transform: rotate(320deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.contact-section .aesthetics .aesthetics-images a:nth-of-type(2) h1 {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  font-family: "Bangers", cursive;
+  color: ghostwhite;
+  font-size: 2.5vw;
+  opacity: 0;
+}
+
+.contact-section .aesthetics .aesthetics-images a:nth-of-type(2) img {
+  height: 100%;
+  width: 100%;
+}
+
+.contact-section .aesthetics .aesthetics-images a:nth-of-type(2):hover {
+  z-index: 100;
+  border: 10px solid #04626e;
+}
+
+.contact-section .aesthetics .aesthetics-images a:nth-of-type(2):hover h1 {
+  opacity: 1;
+}
+
+.contact-section .aesthetics .aesthetics-images a:nth-of-type(3) {
+  height: 15%;
+  width: 90%;
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+  position: relative;
+}
+
+.contact-section .aesthetics .aesthetics-images a:nth-of-type(3) h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: "Bangers", cursive;
+  color: ghostwhite;
+  font-size: 1.5vw;
+  opacity: 0;
+}
+
+.contact-section .aesthetics .aesthetics-images a:nth-of-type(3) img {
+  height: 100%;
+  width: 100%;
+}
+
+.contact-section .aesthetics .aesthetics-images a:nth-of-type(3):hover {
+  z-index: 100;
+  border: 10px solid #04626e;
+}
+
+.contact-section .aesthetics .aesthetics-images a:nth-of-type(3):hover h1 {
+  opacity: 1;
+}
+
+.contact-section .aesthetics .aesthetics-images a:nth-of-type(4) {
+  height: 20%;
+  width: 120%;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.contact-section .aesthetics .aesthetics-images a:nth-of-type(4) h1 {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  font-family: "Bangers", cursive;
+  color: ghostwhite;
+  font-size: 2.5vw;
+  opacity: 0;
+}
+
+.contact-section .aesthetics .aesthetics-images a:nth-of-type(4) img {
+  height: 100%;
+  width: 100%;
+}
+
+.contact-section .aesthetics .aesthetics-images a:nth-of-type(4):hover {
+  z-index: 100;
+  border: 10px solid #04626e;
+}
+
+.contact-section .aesthetics .aesthetics-images a:nth-of-type(4):hover h1 {
+  opacity: 1;
+}
+
+.contact-section .aesthetics .aesthetics-images a:nth-of-type(5) {
+  height: 30%;
+  width: 100%;
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+}
+
+.contact-section .aesthetics .aesthetics-images a:nth-of-type(5) h1 {
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
+  font-family: "Bangers", cursive;
+  color: ghostwhite;
+  font-size: 2.5vw;
+  opacity: 0;
+}
+
+.contact-section .aesthetics .aesthetics-images a:nth-of-type(5) img {
+  height: 100%;
+  width: 100%;
+}
+
+.contact-section .aesthetics .aesthetics-images a:nth-of-type(5):hover {
+  z-index: 100;
+  border: 10px solid #04626e;
+}
+
+.contact-section .aesthetics .aesthetics-images a:nth-of-type(5):hover h1 {
+  opacity: 1;
+}
+
+.contact-section .info-elements {
+  height: 100%;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+}
+
+.contact-section .info-elements .contact {
+  height: 20%;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Shadows Into Light", cursive;
+  color: ghostwhite;
+}
+
+.contact-section .info-elements .contact a {
+  font-size: 1.2vw;
+  color: ghostwhite;
+}
+
+.contact-section .info-elements .info {
+  height: 50%;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-section .info-elements .info .first-div {
+  height: 30%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 15px solid #04626e;
+  border-radius: 15px;
+}
+
+.contact-section .info-elements .info .first-div p {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 1.5vw;
+  color: ghostwhite;
+}
+
+.contact-section .info-elements .info .first-div h1 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 1vw;
+  color: ghostwhite;
+}
+
+.contact-section .info-elements .info .first-div h1 span {
+  font-family: "Bangers", cursive;
+  color: #a81b1b;
+}
+
+.contact-section .info-elements .info .second-div {
+  height: 60%;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  border: 15px solid #04626e;
+  border-radius: 15px;
+  color: ghostwhite;
+}
+
+.contact-section .info-elements .info .second-div .map {
+  height: 100%;
+  width: 100%;
+}
+
+.contact-section .info-elements .info .second-div .map iframe {
+  height: 100%;
+  width: 100%;
+}
+
+.contact-section .info-elements .adress {
+  height: 10%;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 1.5vw;
+  color: ghostwhite;
+}
+
+.contact-section .info-elements .social-media {
+  height: 5%;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 1.3vw;
+  color: ghostwhite;
+}
+
+.searching {
+  height: 20vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+}
+
+.searching form {
+  height: 60%;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.searching form input {
+  height: 70%;
+  width: 70%;
+  border: none;
+  border-bottom: 5px solid #04626e;
+  font-family: "Bangers", cursive;
+  font-size: 1vw;
+  color: ghostwhite;
+  text-align: center;
+  background-color: black;
+}
+
+.searching form button {
+  height: 70%;
+  width: 20%;
+  font-family: "Bangers", cursive;
+  font-size: 1vw;
+  border: none;
+  background-color: #04626e;
+}
+
+.searched-items {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+}
+
+.searched-items .found-items {
+  height: 80%;
+  width: 80%;
+  border: 2px solid #04626e;
+}
+
+.searched-items .site-numbers {
+  height: 5%;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 1vw;
+  color: ghostwhite;
+}
+
+.searched-items .site-numbers span {
+  padding: .5em;
+  text-decoration: underline;
+}
+
+.slider {
+  padding: 3em;
+  background: -webkit-gradient(linear, left top, left bottom, from(#04626e), to(#51c2c2));
+  background: linear-gradient(#04626e, #51c2c2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.slider .first {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: ghostwhite;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 6vw;
+  text-shadow: 4px 4px 2px black;
+}
+
+.slider .second {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: ghostwhite;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 6vw;
+  text-shadow: 4px 4px 2px black;
+}
+
+.slider .container {
+  width: 30%;
+  padding: .5em;
+  -webkit-box-shadow: 10px 10px 42px 0px black;
+  box-shadow: 10px 10px 42px 0px black;
+  background-color: black;
+}
+
+.slider .container .carousel-caption h5 {
+  font-family: "Bangers", cursive;
+  font-size: 1.5vw;
+  color: #04626e;
+}
+
+.slider .container .carousel-caption p {
+  font-family: "Shadows Into Light", cursive;
+}
+
+.section-wrapper {
+  height: 200vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-wrapper .side-section {
+  height: 100%;
+  width: 30%;
+  background-color: black;
+}
+
+.section-wrapper .articles {
+  height: 100%;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+}
+
+.section-wrapper .articles .article {
+  width: 90%;
+  height: 15%;
+  padding: 1em;
+  color: ghostwhite;
+}
+
+.section-wrapper .articles .article h1 {
+  font-family: "Bangers", cursive;
+  color: #04626e;
+}
+
+.section-wrapper .articles .article p {
+  font-family: "Shadows Into Light", cursive;
+}
+
+.section-wrapper .articles .article p span {
+  padding: .2em;
+  font-family: "Bangers", cursive;
+  color: #04626e;
+}
+
+.section-wrapper .articles .article h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+.section-wrapper .articles .article a {
+  font-family: "Bangers", cursive;
+  color: #04626e;
+  text-decoration: none;
+}
+
+.section-wrapper .articles .article a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */
